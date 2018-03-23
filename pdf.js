@@ -13149,10 +13149,10 @@ var PDFViewerApplication = {
   this.setTitle(title);
  },
  setTitle: function pdfViewSetTitle(title) {
-  if (this.isViewerEmbedded) {
+//   if (this.isViewerEmbedded) {
    return;
-  }
-  document.title = title;
+//   }
+//   document.title = title;
  },
  close: function pdfViewClose() {
   var errorWrapper = this.appConfig.errorWrapper.container;
